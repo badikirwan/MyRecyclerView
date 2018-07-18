@@ -20,7 +20,7 @@ public class ListPresidentAdapter extends RecyclerView.Adapter<ListPresidentAdap
         return listPresident;
     }
 
-    public void setListPresident(ArrayList<President> ListPresident) {
+    public void setListPresident(ArrayList<President> listPresident) {
         this.listPresident = listPresident;
     }
 

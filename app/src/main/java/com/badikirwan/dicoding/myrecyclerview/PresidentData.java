@@ -17,9 +17,10 @@ public class PresidentData {
     public static ArrayList<President> getListData() {
         President president = null;
         ArrayList<President> list = new ArrayList<>();
+
         for (int i = 0; i < data.length; i++) {
             president = new President();
-            president.setName(data[1][0]);
+            president.setName(data[i][0]);
             president.setRemarks(data[i][1]);
             president.setPhoto(data[i][2]);
 
